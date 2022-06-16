@@ -97,4 +97,4 @@ The recognized named entities will be used to create a knowledgegraph for CVD do
 -  (2) create graph embedding and conduct dimentionality reduction and visualization (PCA, t-SNE)
 -  (3) Graph Neural Network specially link Prediction between CVD diseases and molecular mechanism (gene,  proteins, pathways)
 
-
+### References
