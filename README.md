@@ -105,3 +105,4 @@ The recognized named entities will be used to create a knowledgegraph for CVD do
 
 ### References
 1. [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7703786/)
+2. [Tagging Genes and Proteins with BioBERT](https://towardsdatascience.com/tagging-genes-and-proteins-with-biobert-c7b04fc6eb4f)
