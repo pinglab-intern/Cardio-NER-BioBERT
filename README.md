@@ -1,5 +1,10 @@
 # CVD-NER-BioBERT
-Named Entity Recognition with BioBERT in CVD documents. This project conducts the Named Entity Recognization (74 biomedical entities from anatomy, physiology, omics (genome, proteome, transcriptome, metabolom, microbiome), drugs and chemicals. We will start from pretrained BioBert to fintune it for NER model with BioNLP data. The fine tuined model will assist to identify biomedical entites in CVD documents.
+
+#### Title: Named Entity Recognition with BioBERT in CVD documents. 
+
+#### Task: To conducts the Named Entity Recognization (74 biomedical entities: anatomy, biomolecules, chemicals) from Cardiovascular Disease (CVD) documents from PubMed
+
+We will start from pretrained BioBert to fintune it for NER model with BioNLP data. The fine tuined model will assist to identify biomedical entites in CVD documents.
 
 ### Data Sources:
  - [PubMed Documents](https://pubmed.ncbi.nlm.nih.gov/download/) (CVD)
@@ -89,7 +94,7 @@ Named Entity Recognition with BioBERT in CVD documents. This project conducts th
 
 
 ### Fine Tuning
-- Fine tuning with BioNLP data will be conducted
+- Fine tuning with BioNLP data will be conducted with BioNLP data to identify 74 biomedical entities from CVD documents.
 
 ### Application
 The recognized named entities will be used to create a knowledgegraph for CVD documents. It will help to conduct
@@ -97,4 +102,6 @@ The recognized named entities will be used to create a knowledgegraph for CVD do
 -  (2) create graph embedding and conduct dimentionality reduction and visualization (PCA, t-SNE)
 -  (3) Graph Neural Network specially link Prediction between CVD diseases and molecular mechanism (gene,  proteins, pathways)
 
+
 ### References
+1. [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7703786/)
