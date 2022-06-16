@@ -3,7 +3,7 @@ Named Entity Recognition with BioBERT in CVD documents. This project conducts th
 
 ### Data Sources:
  - PubMed Documents (CVD)
- - MeSH Terms in CVD
+ - MeSH Descriptors (CVD)
  - BioNLP (Sentence and Tags)
 
 ### Pretrained Model
