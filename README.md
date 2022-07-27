@@ -1,10 +1,6 @@
-# Cardio-NER-BioBERT
-
------------------------
-
 #### Title: 
 
-Named Entity Recognition with BioBERT in CVD documents. 
+***Named Entity Recognition with BioBERT in CVD documents.***
 
 #### Detail: 
 
