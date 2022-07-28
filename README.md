@@ -1,6 +1,6 @@
 #### Title: 
 
-***Building Named Entity Recognition model with fine tuning BioBERT in CVD documents - a data engineering approach***
+***Building Named Entity Recognition model with fine tuning BioBERT - a data engineering approach***
 
 #### Detail: 
 
