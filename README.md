@@ -2,13 +2,13 @@
 
 #### Title: 
 
-***Building Named Entity Recognition model with fine tuning BioBERT - a data engineering approach***
+***Building Named Entity Recognition model with fine-tuning BioBERT - a data engineering approach to cardiovascular medicine***
 
 #### Detail: 
 
-This project is about data engineering of Cardiovascular documents where we transform the data from raw text to mapping of named entities through transfer learning [1][2]. The mapping of documents to entities can be implemented for designing Knowledgegraph and machine learning models. To conducts the Named Entity Recognization (74 biomedical entities: anatomy, biomolecules, chemicals) from Cardiovascular Disease (CVD) documents from PubMed, we propose to build NER model with pretrained bioBERT model in NLP. 
+This project is about data engineering of Cardiovascular documents where we transform the data from raw text to the mapping of named entities through transfer learning [1][2]. The mapping of documents to entities can be implemented for designing Knowledgegraph and machine learning models. To conduct the Named Entity Recognization (74 biomedical entities: e.g., anatomy, biomolecules, chemicals) from Cardiovascular Disease (CVD) documents from PubMed, we propose to build a NER model with a pre-trained bioBERT model in NLP. 
 
-In brief, we will start from pretrained BioBert to fintune it for NER model with BioNLP data. The fine tuined model will assist to identify biomedical entites in CVD documents.
+In brief, we will start from pre-trained BioBert to fine-tune it for the NER model with BioNLP data. The fine-tuned model will assist in identifying biomedical entities in CVD documents.
 
 ### Data Sources:
  - [PubMed Documents](https://pubmed.ncbi.nlm.nih.gov/download/) (CVD)
@@ -16,7 +16,7 @@ In brief, we will start from pretrained BioBert to fintune it for NER model with
  - [BioNLP](https://www.ncbi.nlm.nih.gov/research/bionlp/Data/) (Sentence and Tags)
 
 ### Pretrained Model
--  [BioBERT](https://github.com/dmis-lab/biobert) a pre-trained biomedical language representation model for biomedical text mining from DMIS-Lab.
+-  [BioBERT](https://github.com/dmis-lab/biobert) is a pre-trained biomedical language representation model for biomedical text mining from DMIS-Lab.
 
 ### BioNLP Tags:
 
@@ -51,33 +51,33 @@ In brief, we will start from pretrained BioBert to fintune it for NER model with
 ```
 
 ### Fine Tuning
-- Fine tuning with BioNLP data will be conducted with BioNLP data to identify 74 biomedical entities from CVD documents.
+- Fine-tuning with BioNLP data will be conducted with BioNLP data to identify 74 biomedical entities from CVD documents.
 
 ### Project Walkthrough:
-1. Learn more about Transformer (e.g., embedding and positional encoding, multihead self attention, layer addition and normalization)
-2. Learn more about BERT (e.g., model architecture, building pretrained model)
-3. Learn more about building bioBERT with pubmed documents as data sources
-4. Explore advanced NLP libraries (Huggingface, simpletransformer) with tutorials
-5. Preparing BioNLP data with sentences and tags for fine tuning bioBERT model.
-6. Train NER model with the pretrained bioBERT model with sentences and tags obtaind from BioNLP.
-7. Prepare Cardiovascular documents for implementing NER model for document to entities mapping.
-8. Prepare the document to entities mapping.
+1. Learn more about Transformer (e.g., embedding and positional encoding, multi-head self attention, layer addition, and normalization)
+2. Learn more about BERT (e.g., model architecture, building pre-trained model)
+3. Learn more about building bioBERT with PubMed documents as data sources
+4. Explore advanced NLP libraries (e.g., Huggingface, simple transformer) with tutorials
+5. Preparing BioNLP data with sentences and tags for fine-tuning the bioBERT model.
+6. Train the NER model with the pre-trained bioBERT model with sentences and tags obtained from BioNLP.
+7. Prepare Cardiovascular documents for implementing the NER model for the document to entities mapping.
+8. Prepare the document for entity mapping.
 
 ### Application
-The recognized named entities will be used to create a knowledgegraph for CVD documents. It will help to conduct
+The recognized named entities will be used to create a knowledge graph for CVD documents. It will help to conduct
 
--  (1) smart queries for data exploration, create data summary, visualization and analysis 
--  (2) create graph embedding and conduct dimentionality reduction and visualization (PCA, t-SNE)
--  (3) Graph Neural Network specially link Prediction between CVD diseases and molecular mechanism (gene,  proteins, pathways)
+-  (1) smart queries for data exploration, create data summary, visualization, and analysis 
+-  (2) create graph embedding and conduct dimensionality reduction and visualization (PCA, t-SNE)
+-  (3) Graph Neural Network especially link Prediction between CVD diseases and molecular mechanism (gene,  proteins, pathways)
 
 
 ### Educational Goal:
 
-This project offers an ooprtunity to get familiar with advanced NLP models (e.g., transformer and BioBERT) and implementation of Named entity recognition over CVD documents. 
+This project offers an opportunity to familiarize with advanced NLP models (e.g., transformer and BioBERT) and implement Named entity recognition over CVD documents. 
 
 ### Scientific Goal:
 
-This project offers a new data engineeering concept which could deliver high quality data to assist other scientific exploration (e.g. knowledge graph, graph neural network, entity resolution, concept normalization)
+This project offers a new data engineering concept which could deliver high-quality data to assist other scientific exploration (e.g., knowledge graph, graph neural network, entity resolution, concept normalization)
 
 ### References
 1. [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7703786/)
